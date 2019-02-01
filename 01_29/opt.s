@@ -1,0 +1,9 @@
+MOV3 R0, #0
+MOV3 R1, #1
+MOV3 R2, #2
+MOV3 R3, #1
+JZ R2, #5
+ADD R4, R3
+ADD R3, R4
+SUB R2, R1
+JZ R0, #-5
